@@ -4,4 +4,9 @@
     <%= message.body %>
   </p>
 
+  <p>
+    <%= link_to "Show this message", message %>
+  </p>
+    
+  <%= button_to "Destroy this message", message, method: :delete %>
 </div>
