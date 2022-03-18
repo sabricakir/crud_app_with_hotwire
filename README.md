@@ -7,7 +7,7 @@ Isterseniz hic uzatmadan projemi tanitma kismina geceyim..
 Oncelikle projemde create islemi cok basit bir sekilde isliyor body kismina mesajinizi yaziyorsunuz ve create dediginiz anda sayfa yenilenmeden mesaj ekrana dusuyor. Burda eklemeliyim ki model kisminda body icin validation ekledigimden dolayi body kismi bos kalamiyor eger bos bir sekilde create ederseniz hata mesaji da yine sayfa yenilenmeden ekrana gonderiliyor.
 
 ![create 1](https://user-images.githubusercontent.com/84380549/158983886-6d0a2085-e4ca-434c-bbaa-5eb89c8d31e8.png)
-![create 2](https://user-images.githubusercontent.com/84380549/158983918-2943e4e1-5d0d-471f-873d-874ea443f706.png)
+![create 2](https://user-images.githubusercontent.com/84380549/158985202-cc8bf84d-df61-420f-81ad-f381299bee76.png)
 ![create code](https://user-images.githubusercontent.com/84380549/158983924-3e7b1eaf-9422-4e7c-be8d-3c2b7bc05592.png)
 
 ## UPDATE
