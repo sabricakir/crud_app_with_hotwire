@@ -29,8 +29,10 @@ Create message butonuna bastiginizda dikkatinizi cekecegini umdugum sekilde mesa
 
 ## Message Counter & Time Zone & Notifications
 Dikkat ettiyseniz sayfanin en ustunde zamani gosteren bir alan var bunu ekleme sebebim siz her mesaji create, update ya da delete ettiginizde sayfanin refresh olmadigini kanitlamak icin eger sayfayi refresh ederseniz goreceksiniz ki zaman degisiyor.
-Yine sayfanin basligi olarak en ustte There are **number** messages ibaresini gorecegeniz gibi bunu da stream kullanarak gerceklestirdim ve bu sekilde mesaj eklendiginde ya da silindiginde message counter guncelleniyor.
-Son olarak mesaj create update delete ettiginizde yaptiginiz isleme gore yukarida bir notification beliriyor bu notification'in icerigi **message id** created/updated/deleted seklinde ve yine bunu da stream ler araciligiyla gerceklestiriyoruz.
+
+Yine sayfanin basligi olarak en ustte **There are 'number' messages** ibaresini gorecegeniz gibi bunu da stream kullanarak gerceklestirdim ve bu sekilde mesaj eklendiginde ya da silindiginde message counter guncelleniyor.
+
+Son olarak mesaj create update delete ettiginizde yaptiginiz isleme gore yukarida bir notification beliriyor bu notification'in icerigi **'message id' created/updated/deleted** seklinde ve yine bunu da stream ler araciligiyla gerceklestiriyoruz.
 
 ![time code](https://user-images.githubusercontent.com/84380549/158984242-104ccc54-d689-4d0d-a202-69f2ab7a3586.png)
 ![index code](https://user-images.githubusercontent.com/84380549/158984246-795a1e3c-3092-4db3-bcaa-fd797c4c9e42.png)
