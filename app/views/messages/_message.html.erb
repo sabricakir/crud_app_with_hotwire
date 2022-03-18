@@ -1,15 +1,23 @@
 <div id="<%= dom_id message %>">
+
+
+
+<div class='center_form'>
   <p>
-    <strong>Body:</strong>
+    <strong style="width: 100%;">Body:</strong>
     <%= message.body %>
   </p>
-
-  <p>
+  <div id='form_buttons'>
+    <p>
     <%= link_to "Show this message", message %>
   </p>
   <%= turbo_frame_tag "edit_message" do%>
-    <%= link_to "Edit this message", edit_message_path(message)%> |
+    <%= link_to "Edit this message", edit_message_path(message)%>
   <%end%>
   
   <%= button_to "Destroy this message", message, method: :delete %>
+  </div>
+
 </div>
+
+  </div>
