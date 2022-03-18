@@ -17,13 +17,7 @@ class MessagesController < ApplicationController
 
   # GET /messages/1/edit
   def edit
-    respond_to do |format|
-      format.turbo_stream do
-        render turbo_stream: turbo_stream.update(@message,
-                                                partial:"messages/form",
-                                                locals:{message:@message})
-      end
-    end
+    @message = Message.find(params[:id])
   end
 
   # POST /messages or /messages.json

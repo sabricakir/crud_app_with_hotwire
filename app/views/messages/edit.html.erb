@@ -1,6 +1,9 @@
 <h1>Editing message</h1>
 
-<%= render "form", message: @message %>
+
+<%= turbo_frame_tag "edit_message" do%>
+  <%= render "form", message: @message %>
+<%end%>
 
 <br>
 
